@@ -1,1 +1,40 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+/* CSS Resets Starts  */
+/* 1. Box sizing */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* 2. Remove default margin */
+body {
+  margin: 0;
+  font-family: Inter, sans-serif;
+}
+
+/* 3. Improve text rendering */
+body {
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* 4. Media defaults */
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+}
+
+/* 5. Form elements inherit fonts */
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+/* CSS Resets Ends */

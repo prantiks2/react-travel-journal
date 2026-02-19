@@ -1,0 +1,23 @@
+.header {
+  background-color: #f55a5a;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 0;
+}
+
+.header > img {
+  margin-right: 7px;
+  width: 24px;
+}
+
+.header .site-heading {
+  font-size: 0.9rem;
+  font-weight: 500;
+  line-height: 100%;
+  letter-spacing: -7.5%;
+  color: white;
+}
+
+
+
